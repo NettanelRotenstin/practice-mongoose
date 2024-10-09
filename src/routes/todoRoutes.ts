@@ -13,7 +13,7 @@ export const router:Router = exp.Router()
  *       201:
  *         description: A successful response
  */
-router.post('/createuser',   ()=>{})
+router.post('/createtodo',   ()=>{})
 
 // routes/sample.js
 /**
