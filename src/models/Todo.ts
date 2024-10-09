@@ -1,7 +1,10 @@
 import mongoose from 'mongoose'
  
 
-
+export interface Todo{
+    title:string,
+    user_id:mongoose.Schema.Types.ObjectId
+}
 export const todoSchema = new mongoose.Schema({
 
     title: {

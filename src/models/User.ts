@@ -1,5 +1,10 @@
 import mng from 'mongoose'
-import { todoSchema } from './Todo'
+import { Todo, todoSchema } from './Todo'
+
+export interface User{
+    user_name:string,
+    todos:[Todo]
+}
 
 
 export const userSchema = new mng.Schema({
