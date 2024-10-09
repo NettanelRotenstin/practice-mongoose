@@ -16,7 +16,7 @@ exports.router = express_1.default.Router();
  *       201:
  *         description: A successful response
  */
-exports.router.post('/createuser', () => { });
+exports.router.post('/createtodo', () => { });
 // routes/sample.js
 /**
  * @swagger
